@@ -1,3 +1,5 @@
+import styles from "./image-gallery.module.css"
+
 const ImageGalleryItem = ({ items, showImage }) => {
   const images = items.map(({ id, webformatURL, largeImageURL }) => {
     return (
@@ -11,7 +13,7 @@ const ImageGalleryItem = ({ items, showImage }) => {
     );
   });
 
-  return <ul>{images}</ul>;
+  return <ul className={styles.gallery}>{images}</ul>;
 };
 
 ImageGalleryItem.defaultProps = {
