@@ -1,0 +1,31 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: lightgray;
+}
+
+.modal {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  min-height: 200px;
+  min-width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+}
